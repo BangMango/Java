@@ -2,7 +2,7 @@ package codeUp;
 
 import java.util.Scanner;
 
-public class ¸®¸ğÄÁ {
+public class Main {
 	public static int first;
 	public static int second;
 	public static int count=0;

@@ -1,0 +1,24 @@
+package Array;
+
+import java.util.ArrayList;
+
+public class Entry {
+	private ArrayList<Pokemon> pokemonList= new ArrayList();
+	
+	public void setPokemonList(ArrayList<Pokemon> pokemonList) {
+		this.pokemonList=pokemonList;
+	}
+	
+	private String InformType(String type) {
+		switch(type) {
+		case "FIRE":
+			return "해당 포켓몬은 불 타입 포켓몬이며, 약점은 물 타입입니다.";
+		case "WATER":
+			return "해당 포켓몬은 물 타입 포켓몬이며, 약점은 풀 타입입니다.";
+		case "LEAF":
+			return "해당 포켓몬은 풀 타입 포켓몬이며, 약점은 풀 타입입니다.";
+		default :
+			return "포켓몬의 타입을 찾을 수 없습니다.";
+		}
+	}
+}

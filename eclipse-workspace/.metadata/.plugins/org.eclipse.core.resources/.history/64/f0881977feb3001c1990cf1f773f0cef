@@ -1,0 +1,9 @@
+package customListQuiz;
+
+public class CuttingBoard {
+	private String translateSalmontype(String type) {
+		if(type.equals("BIG")) {
+			return "Å« ¿¬¾î";
+		}
+	}
+}

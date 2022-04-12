@@ -1,0 +1,57 @@
+package codeUp;
+
+import java.util.Scanner;
+
+public class Main {
+	public static int first;
+	public static int count=0;
+	public static void carculate(int first, int second) {
+		int minus=first-second;
+		if(minus>=8) {
+			first+=10;
+			count+=1;
+		}else if(minus>=4 && minus<=7) {
+			first+=5;
+			count+=1;
+		}else if(minus<3) {
+			first+=1;
+			count+=1;
+		}
+	}
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int first=sc.nextInt();
+		int second=sc.nextInt();
+		while(first!=second) {
+			if(first<second) {
+				int minus=second-first;
+				if(minus>=8) {
+					first+=10;
+					count+=1;
+				}else if(minus>=4 && minus<=7) {
+					first+=5;
+					count+=1;
+				}else if(minus<3) {
+					first+=1;
+					count+=1;
+				}
+			}else if(first>second) {
+				int minus=first-second;
+				if(minus>=8) {
+					second+=10;
+					count+=1;
+				}else if(minus>=4 && minus<=7) {
+					second+=5;
+					count+=1;
+				}else if(minus<3) {
+					second+=1;
+					count+=1;
+				}
+			}
+		}
+		System.out.println(count);
+
+	}
+
+}

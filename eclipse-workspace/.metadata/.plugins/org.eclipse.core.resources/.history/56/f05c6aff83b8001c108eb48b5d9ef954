@@ -1,0 +1,13 @@
+package day02;
+
+public class CustomQueue {
+
+	public static void main(String[] args) {
+		//데이터 유뮤 확인
+		
+		//enqueue(데이터 삽입)
+		private static void enqueue(ARaayList<Integer> arrayList,Integer data)
+		//dequeue(데이터 제거)
+	}
+
+}

@@ -1,0 +1,13 @@
+package oneDayoneCoding;
+
+import java.util.ArrayList;
+
+public class AccessModifierMain {
+
+	public static void main(String[] args) {
+		AccessModifier2 am=new AccessModifier2();
+		ArrayList<AccessModifier1> amList=new ArrayList();
+		
+	}
+
+}

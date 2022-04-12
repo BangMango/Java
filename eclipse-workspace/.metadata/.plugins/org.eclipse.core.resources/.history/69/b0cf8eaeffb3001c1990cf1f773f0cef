@@ -1,0 +1,14 @@
+package customListQuiz;
+
+public class CuttingBoard {
+	
+	private String translateSalmontype(String type) {
+		if(type.equals("BIG")) {
+			return "큰 연어";
+		}else if(type.equals("MEDIUM")) {
+			return "중간 연어";
+		}else {
+			return "작은 연어";
+		}
+	}
+}

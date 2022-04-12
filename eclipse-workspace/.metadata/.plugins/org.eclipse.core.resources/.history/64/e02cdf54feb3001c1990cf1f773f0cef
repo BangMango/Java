@@ -1,0 +1,7 @@
+package customListQuiz;
+
+public class CuttingBoard {
+	private String translateSalmontype() {
+		
+	}
+}

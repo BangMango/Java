@@ -1,0 +1,22 @@
+package Array;
+
+import java.util.ArrayList;
+
+public class Pokebox {
+
+	public static void main(String[] args) {
+		Entry et=new Entry();
+		ArrayList<Pokemon> pokemonList=new ArrayList();
+		Pokemon red1=new Pokemon();
+		Pokemon red2=new Pokemon();
+		Pokemon red3=new Pokemon();
+		Pokemon blue1=new Pokemon();
+		Pokemon blue2=new Pokemon();
+		Pokemon blue3=new Pokemon();
+		Pokemon green1=new Pokemon();
+		Pokemon green2=new Pokemon();
+		Pokemon green3=new Pokemon();
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package codeUp;
+
+public class °Å½º¸§µ· {
+	public static Integer count=0;
+	public int carculate(int money) {
+		if(money>50000) {
+			count+=1;
+			return 50000;
+		}
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

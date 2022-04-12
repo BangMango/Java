@@ -1,0 +1,8 @@
+package oneDayoneCoding;
+
+public class AccessModifier1 {
+	private String name;
+	private Integer age;
+	private String address;
+	private boolean gender;
+}

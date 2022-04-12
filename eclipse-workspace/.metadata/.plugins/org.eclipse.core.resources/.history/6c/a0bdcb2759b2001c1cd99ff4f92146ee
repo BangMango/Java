@@ -1,0 +1,11 @@
+package arrayExample;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//1 배열값 할당하는 법
+		Integer [] testArray=new Integer[5];
+		
+	}
+
+}

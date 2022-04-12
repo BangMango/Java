@@ -1,0 +1,19 @@
+package day02;
+
+import java.util.ArrayList;
+
+public class CustomQueue {
+	//데이터 유뮤 확인
+			private static Boolean isEmpty(ArrayList<Integer> arrayList) {
+				
+			}
+			//enqueue(데이터 삽입)
+			private static void enqueue(ArrayList<Integer> arrayList,Integer data) {
+				arrayList.add(data);
+			}
+			//dequeue(데이터 제거)
+	public static void main(String[] args) {
+		
+	}
+
+}

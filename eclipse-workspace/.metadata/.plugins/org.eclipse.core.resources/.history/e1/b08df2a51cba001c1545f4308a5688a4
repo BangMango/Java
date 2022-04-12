@@ -1,0 +1,13 @@
+package codeUp;
+
+public class °Å½º¸§µ· {
+	public static Integer count=0;
+	public void carculate(int money) {
+		
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

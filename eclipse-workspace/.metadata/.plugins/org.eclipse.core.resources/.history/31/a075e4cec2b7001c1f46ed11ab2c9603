@@ -1,0 +1,21 @@
+package characters;
+
+public class Dog extends Character{
+	private static Integer HP = 100;
+	public static Integer MP = 100;
+	//state variable
+	public boolean pullPowerOrNot;
+	
+	public void runAway() {
+		if(pullPowerOrNot) {
+			System.out.println("時時時次");
+			pullPowerOrNot=false;
+		}else {
+			System.out.println("時時..時次..");
+		}
+	}
+	
+	public void eat() {
+		System.out.println("拡拡拡");
+	}
+}

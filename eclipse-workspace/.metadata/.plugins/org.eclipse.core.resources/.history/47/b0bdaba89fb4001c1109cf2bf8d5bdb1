@@ -1,0 +1,11 @@
+package Array;
+
+import java.util.ArrayList;
+
+public class Entry {
+	private ArrayList<Pokemon> pokemonList= new ArrayList();
+	
+	public void setPokemonList(ArrayList<Pokemon> pokemonList) {
+		this.pokemonList=pokemonList;
+	}
+}

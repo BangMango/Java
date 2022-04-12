@@ -1,0 +1,14 @@
+package enumQuiz;
+
+public class Main {
+	public void validateCandyType(CandyType candyType) {
+		if(candyType==candyType.GINGER) {
+			
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package day02;
+
+public class CustomQueue {
+
+	public static void main(String[] args) {
+		//데이터 유뮤 확인
+	}
+
+}

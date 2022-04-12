@@ -1,0 +1,16 @@
+package oneDayoneCoding;
+
+import java.util.ArrayList;
+
+public class AccessModifier2 {
+	ArrayList<AccessModifier1> am=new ArrayList();
+	
+	public void setList(ArrayList<AccessModifier1> am) {
+		this.am=am;
+	}
+	private void translateGender(Boolean gender) {
+		if(gender==true) {
+			
+		}
+	}
+}

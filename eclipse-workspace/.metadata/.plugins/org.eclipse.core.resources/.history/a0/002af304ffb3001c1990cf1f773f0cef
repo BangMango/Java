@@ -1,0 +1,18 @@
+package customListQuiz;
+
+import java.util.ArrayList;
+
+public class CatMountain {
+
+	public static void main(String[] args) {
+		ArrayList<Salmon> salmonList=new ArrayList();
+		Salmon bigSalmon=new Salmon();
+		bigSalmon.setType("BIG");
+		Salmon mediumSalmon=new Salmon();
+		mediumSalmon.setType("MEDIUM");
+		Salmon smallSalmon=new Salmon();
+		smallSalmon.setType("SMALL");
+
+	}
+
+}

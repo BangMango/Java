@@ -1,0 +1,5 @@
+package oneDayoneCoding;
+
+public class AccessModifier2 {
+	ArrayList<AccessModifier1> am=new ArrayList();
+}

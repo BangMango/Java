@@ -1,0 +1,15 @@
+package exceptionExample2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Integer churCnt=01;
+		if(churCnt>=5) {
+			System.out.println("소미 : 추르냥냥");
+		}else {
+			System.out.println("소미 : 츄르가 없다옹");
+		}
+
+	}
+
+}

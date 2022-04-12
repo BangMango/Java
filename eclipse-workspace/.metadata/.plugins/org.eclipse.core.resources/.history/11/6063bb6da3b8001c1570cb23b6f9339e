@@ -1,0 +1,12 @@
+package enumQuiz;
+
+public class Main {
+	public void validateCandyType() {
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

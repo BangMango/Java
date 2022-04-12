@@ -1,0 +1,5 @@
+package protectedExample;
+
+public class ProtectedMain {
+	protecrt String name="프로텍트";
+}

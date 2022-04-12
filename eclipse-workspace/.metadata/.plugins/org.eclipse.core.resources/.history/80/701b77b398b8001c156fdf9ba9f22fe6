@@ -1,0 +1,19 @@
+package exceptionQuiz;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ArrayList  dogsNameList=new ArrayList();
+		dogsNameList.add("µŒƒ°");
+		dogsNameList.add("»Úµ’¿Ã");
+		dogsNameList.add("∂Øƒ•¿Ã");
+		dogsNameList.add("∂Ø±∏");
+		for(int i=0; i<dogsNameList.size();i++) {
+			System.out.println(dogsNameList.get(i));
+		}
+
+	}
+
+}

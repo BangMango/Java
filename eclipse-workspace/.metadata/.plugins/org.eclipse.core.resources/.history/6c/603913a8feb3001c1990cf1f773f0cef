@@ -1,0 +1,10 @@
+package customListQuiz;
+
+public class CatMountain {
+
+	public static void main(String[] args) {
+		ArrayList<Salmon> salmonList=new ArrayList();
+
+	}
+
+}

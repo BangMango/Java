@@ -1,0 +1,29 @@
+package Array;
+
+import java.util.ArrayList;
+
+public class Pokebox {
+
+	public static void main(String[] args) {
+		Entry et=new Entry();
+		ArrayList<Pokemon> pokemonList=new ArrayList();
+		Pokemon red1=new Pokemon();
+		Pokemon red2=new Pokemon();
+		Pokemon red3=new Pokemon();
+		Pokemon blue1=new Pokemon();
+		Pokemon blue2=new Pokemon();
+		Pokemon blue3=new Pokemon();
+		Pokemon green1=new Pokemon();
+		Pokemon green2=new Pokemon();
+		Pokemon green3=new Pokemon();
+		red1.setType("FIRE"); red1.setName("颇捞府"); red1.setLevel(5);
+		red2.setType("FIRE"); red2.setName("府磊靛"); red1.setLevel(25);
+		red3.setType("FIRE"); red3.setName("府磊根"); red3.setLevel(50);
+		blue1.setType("WATER"); blue1.setName("部何扁"); blue1.setLevel(5);
+		blue2.setType("WATER"); blue2.setName("绢聪何扁"); blue2.setLevel(25);
+		blue3.setType("WATER"); blue3.setName("芭合空"); blue3.setLevel(50);
+		green1.setType("LEAF");
+
+	}
+
+}

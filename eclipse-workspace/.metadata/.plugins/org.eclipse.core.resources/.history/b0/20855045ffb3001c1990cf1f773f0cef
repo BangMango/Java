@@ -1,0 +1,28 @@
+package customListQuiz;
+
+import java.util.ArrayList;
+
+public class CatMountain {
+
+	public static void main(String[] args) {
+		ArrayList<Salmon> salmonList=new ArrayList();
+		Salmon bigSalmon=new Salmon();
+		bigSalmon.setType("BIG");
+		Salmon mediumSalmon=new Salmon();
+		mediumSalmon.setType("MEDIUM");
+		Salmon smallSalmon=new Salmon();
+		smallSalmon.setType("SMALL");
+		System.out.println("===남아있는 연어들===");
+		for(int i=0; i<2;i++) {
+			salmonList.add(bigSalmon);
+		}
+		for(int i=0; i<3; i++) {
+			salmonList.add(mediumSalmon);
+		}
+		for(int i=0; i<2;i++) {
+			salmonList.add(smallSalmon);
+		}
+		System.out.println("==============");
+	}
+
+}

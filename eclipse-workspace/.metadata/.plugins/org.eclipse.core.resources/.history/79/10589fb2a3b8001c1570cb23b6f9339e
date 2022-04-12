@@ -1,0 +1,16 @@
+package enumQuiz;
+
+public class Main {
+	public void validateCandyType(CandyType candyType) {
+		if(candyType==candyType.GINGER) {
+			System.out.println("»ı°­¸À »çÅÁ");
+		}else if(candyType==candyType.FRUITY) {
+			System.out.println("°úÀÏ¸À »çÅÁ");
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

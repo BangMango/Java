@@ -1,0 +1,19 @@
+package exceptionExample3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Integer [] errorArray=new Integer[] {808,909,555,111,444};
+		for(int i=0;i<errorArray.length;i++) {
+			try {
+				System.out.println("출력 결과"+errorArray[i]);
+			}catch(ArrayIndexOutOfBoundsException exception) {
+				System.out.println(exception.getMessage());
+			}finally {
+				
+			}
+		}
+
+	}
+
+}

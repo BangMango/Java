@@ -3,7 +3,7 @@ package codeUp;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class °Å½º¸§µ· {
+public class Main {
 	public static Integer count=0;
 	
 	public static void main(String[] args) {
